@@ -17,7 +17,7 @@
   nav ul li button{
     color: seagreen;
     background-color: #F1F1F3;
-    border-color: seagreen;
+    border: solid seagreen;
     padding: 10px 20px;
     border-radius: 5px;
     border-width: 2px;
@@ -166,4 +166,43 @@
 }
 .align{
   margin: 20px;
+}
+.parent{
+  display: flex;
+  margin-top: 0;
+
+}
+.diva{
+  background-color: white;
+  font-size: 35px;
+  padding: 30px;
+  margin: 20px;
+  border: lightgray solid 2px;
+  border-radius: 15px;
+}
+.centre{
+  text-align: center;
+}
+.diff{
+  background-color: aquamarine;
+  font-size: 35px;
+  padding: 30px;
+  margin: 20px;
+  border: lightgray solid 2px;
+  border-radius: 15px;
+}
+input{
+  width: 1000px;
+  text-align: center;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  font-size: larger;
+  font-weight: normal;
+  border-bottom: lightgray solid;
+  
+}
+form{
+  margin-left: 145px;
+  
 }
