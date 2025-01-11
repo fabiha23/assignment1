@@ -148,9 +148,10 @@
   color: white;
   border-radius: 5px;
 }
-.zaz{
+/* .zaz{
+  background-size: cover;
   
-}
+} */
 .bd{
   color: dimgray;
   font-size: 22px;
@@ -252,9 +253,3 @@ footer{
   background-color: #C6E4D6;
   border-radius: 20px;
 }
-.ff{
-  background-color: #C6E4D6;
-  margin-bottom: 15px;
-
-}
-
