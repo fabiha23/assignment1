@@ -26,22 +26,22 @@
   .hover:hover{
     background-color: slategrey;
   }
-  div{
+  .frst{
     display: flex;
     border-radius: 20px;
     width: 1310px;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
     margin-top: 100px;
     padding: 30px 10px;
   }
-  div section p{
+  .HH{
     font-size: 50px;
     margin: 0;
     background-color: #C6E4D6;
 
   }
-  div section img{
+  .H{
     height: 320px;
     padding-right: 50px;
 
@@ -84,6 +84,7 @@
   background-image:url(../assets/quote-bg.png) ;
   background-repeat: no-repeat;
   background-position:20px 20px;
+  border-radius: 20px;
 
 }
 #yu{
@@ -92,6 +93,7 @@
 .idea{
   display: block;
   padding: 30px;
+  border-radius: 20px;
 
 }
 #idea1{
@@ -110,6 +112,7 @@
 
 .bc{
   background-color: #C6E4D6;
+
 }
 .normal{
   font-weight: normal;
@@ -148,15 +151,11 @@
   color: white;
   border-radius: 5px;
 }
-/* .zaz{
-  background-size: cover;
+.zaz{
+  background-color: white;
+  padding-left: 20px;
   
-} */
-.bd{
-  color: dimgray;
-  font-size: 22px;
-
-}
+} 
 
 .sat1{
   margin: 20px;
@@ -170,6 +169,13 @@
 .white{
   background-color: white;
   padding: 20px;
+  display: flex;
+  border-radius: 20px;
+}
+.bcw{
+  background-color: white;
+  margin: 20px;
+  color: dimgray;
 }
 .read{
   border: none;
@@ -184,6 +190,7 @@
 .parent{
   display: flex;
   margin-top: 0;
+  justify-content: center;
 
 }
 .diva{
@@ -228,14 +235,10 @@ form{
   margin-left: 600px;
   margin-top: 20px;
 }
-.foot{
-  display: block;
-  text-align: center;
 
-}
 .input2{
   background-color: white;
-  padding: 15px 100px 15px 30px;
+  padding: 15px 100px 16px 30px;
   width: 700px;
   border: none;
   border-radius: 10px 0 0 10px;
@@ -244,12 +247,25 @@ form{
 .submit{
   border: none;
   background-color: #006A50;
-  padding: 0 20px;
+  padding: 18px 20px;
   color: white;
   border-radius: 0 10px 10px 0;
 
 }
-footer{
+.subs{
+  padding-left: 200px;
   background-color: #C6E4D6;
+}
+footer h2{
+  padding-left: 550px;
+  padding-top: 40px;
+  margin-bottom: 0;
+}
+footer p{
+  padding-left: 560px;
+  padding-bottom: 20px;
+}
+footer{
+  overflow-y: hidden;
   border-radius: 20px;
 }
