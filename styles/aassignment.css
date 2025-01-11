@@ -31,7 +31,7 @@
     border-radius: 20px;
     width: 1310px;
     justify-content: center;
-    margin: 100px 50px;
+    margin: auto;
     margin-top: 100px;
     padding: 30px 10px;
   }
@@ -105,6 +105,8 @@
 .normal{
   font-weight: normal;
   color: dimgray;
+  font-size: medium;
+  background-color: transparent;
 }
 .vision>div>h3{
   color: dimgray;
@@ -137,4 +139,31 @@
   color: white;
   border-radius: 5px;
 }
+.zaz{
+  
+}
+
+.sat1{
+  margin: 20px;
+  border-radius: 20px;
+  
+  
+}
+.sat2{
+  margin: 20px;
+  border-radius: 20px;
+}
+.white{
+  background-color: white;
+  padding: 20px;
+}
+.read{
+  border: none;
+  color: white;
+  background-color: #006A50;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.align{
+  margin: 20px;
 }
