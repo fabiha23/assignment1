@@ -88,6 +88,8 @@
 #idea1{
   margin: 50px 10px 0 0;
 }
+
+
 #idea2{
   margin: 50px 10px 0 10px;
 
@@ -106,4 +108,33 @@
 }
 .vision>div>h3{
   color: dimgray;
+}
+.blue{
+  background-color: #C5D8F8;
+}
+.pink{
+  background-color: #F7EBCF;
+}
+.btn1{
+  border: none;
+  background-color: #5490F5;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+
+}
+.btn2{
+  border: none;
+  background-color: #FFC239;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.btn3{
+  border: none;
+  background-color: #09A15C;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
 }
