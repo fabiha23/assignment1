@@ -76,9 +76,18 @@
   }
 .vision{
   display: flex;
+}
+.yunus{
+  background-color: white;
+  display: block;
+  padding: 30px;
+  background-image:url(../assets/quote-bg.png) ;
+  background-repeat: no-repeat;
+  background-position:20px 20px;
 
-
-
+}
+#yu{
+  font-weight: bolder;
 }
 .idea{
   display: block;
@@ -142,11 +151,15 @@
 .zaz{
   
 }
+.bd{
+  color: dimgray;
+  font-size: 22px;
+
+}
 
 .sat1{
   margin: 20px;
   border-radius: 20px;
-  
   
 }
 .sat2{
@@ -174,7 +187,7 @@
 }
 .diva{
   background-color: white;
-  font-size: 35px;
+  font-size: 30px;
   padding: 30px;
   margin: 20px;
   border: lightgray solid 2px;
@@ -185,13 +198,13 @@
 }
 .diff{
   background-color: aquamarine;
-  font-size: 35px;
+  font-size: 30px;
   padding: 30px;
   margin: 20px;
   border: lightgray solid 2px;
   border-radius: 15px;
 }
-input{
+.input1{
   width: 1000px;
   text-align: center;
   background-color: white;
@@ -206,3 +219,42 @@ form{
   margin-left: 145px;
   
 }
+.donate{
+  border: none;
+  background-color: #006A50;
+  padding: 15px 20px;
+  border-radius: 9px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+.foot{
+  display: block;
+  text-align: center;
+
+}
+.input2{
+  background-color: white;
+  padding: 15px 100px 15px 30px;
+  width: 700px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+
+}
+.submit{
+  border: none;
+  background-color: #006A50;
+  padding: 0 20px;
+  color: white;
+  border-radius: 0 10px 10px 0;
+
+}
+footer{
+  background-color: #C6E4D6;
+  border-radius: 20px;
+}
+.ff{
+  background-color: #C6E4D6;
+  margin-bottom: 15px;
+
+}
+
